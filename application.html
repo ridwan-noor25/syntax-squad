@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="image/Untitled_design-removebg-preview[1].png">
+    <title>Syntax Squad Application Form</title>
+    <link rel="stylesheet" href=".CSS/application.css" />
+    <link
+    href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+    rel="stylesheet"
+  />
+  </head>
+  <body>
+    <nav class="navbar">
+        <a href="#" class="log"
+          ><img src="image/Untitled_design-removebg-preview[1].png" alt=""
+        /></a>
+        <a href="#" class="logo">SYNTAX-SQUAD</a>
+        <ul>
+          <li><a href="index.html" id="ome">Home</a></li>
+          <li><a href="about.html">About us</a></li>
+          <li><a href="schedule.html">Schedule</a></li>
+          <li><a href="application.html">Apply now</a></li>
+        </ul>
+      </nav>
+    
+    <h2>Syntax Squad Application Form</h2>
+    <form action="/submit_application" method="post">
+      <label for="name">Full Name</label>
+      <input
+        type="text"
+        id="name"
+        placeholder="Sponge Robert Squarepants"
+        name="name"
+        required
+      />
+
+      <label for="email">Email</label>
+      <input
+        type="email"
+        id="email"
+        placeholder="bikinibottom@gmail.com"
+        name="email"
+        required
+      />
+
+      <label for="phone">Phone Number</label>
+      <input
+        type="tel"
+        id="phone"
+        placeholder="+254*********"
+        name="phone"
+        required
+      />
+
+      <label for="experience">Previous Coding Experience</label>
+      <select id="experience" name="experience" required>
+        <option value="" disabled selected>Select your experience level</option>
+        <option value="none">None</option>
+        <option value="beginner">Beginner</option>
+        <option value="intermediate">Intermediate</option>
+        <option value="advanced">Advanced</option>
+      </select>
+
+      <label for="Mode of Payment">Mode of Payment:</label>
+      <select id="ModePayment">
+        <option value="" disabled selected>Select your Payment method</option>
+        <option value="Mpesa">Mpesa</option>
+        <option value="Visa">Visa</option>
+        <option value="Paypal">Paypal</option>
+      </select>
+
+      <label for="motivation">Why do you want to join this bootcamp?</label>
+      <textarea
+        id="motivation"
+        placeholder="Uuumh....Coz it's AWESOME!!!"
+        name="motivation"
+        rows="4"
+        required
+      ></textarea>
+
+      <button onclick="alert('Thank you for contacting us,will get back to you')">Submit Application</button>
+    </form>
+    <footer>
+      <div class="end">
+<div class="foot">
+  <a href="#"><i class='bx bx-phone' ></i>+254721387974 (General Enquiries)</a>
+  <a href="#"><i class='bx bx-phone'></i>+252759613661(Whatsapp)</a>
+  <a href="#"><i class='bx bx-envelope' ></i>contact@syntax.com</a>
+  <a href="#"><i class='bx bx-envelope' ></i>admission@syntax.com</a>
+  <a href="#"><i class='bx bx-envelope' ></i> P.O. Box 1801, 70100 Garissa</a>
+  <div class="footer">
+  <a href="#" class="footer"><i class='bx bxl-facebook' ></i></a>
+  <a href="#" class="footer"><i class='bx bxl-linkedin' ></i></a>
+  <a href="#" class="footer"><i class='bx bxl-twitter' ></i></a>
+  <a href="#" class="footer"><i class='bx bxl-youtube' ></i></a>
+</div>
+</div>
+<div>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3792.2961299879853!2d39.659419774723474!3d-0.4350114995607075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x18204b83cd08f8a3%3A0x2841646bfbf3cfcc!2sGarissa%20University!5e1!3m2!1sen!2ske!4v1741438127487!5m2!1sen!2ske" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>" 
+  
+</div>
+</div>
+  </footer>
+  <p id="copy"> &copy; COPYRIGHT 2025  by SYNTAX-SQUAD.</p>
+  </body>
+</html>
